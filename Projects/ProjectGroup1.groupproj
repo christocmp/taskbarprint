@@ -1,0 +1,168 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{A1739813-A23D-498C-B8B2-A1AF4E31208A}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Animedclient.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\RAD Studio\testing-7.1\examples\simple\ZSimple.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\Basic\Basic.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\Basic3D\Basic3D.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\BasicGUI\BasicGUI.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\Networking\Networking.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\TargetsNPanels\TargetsNPanels.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\Illumination\Illumination.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\Hasteroids\Hasteroids.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\..\Desktop\jedi\install\JediInstaller.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Project1.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\RAD Studio\11.0\Samples\Delphi\RTL\Threads\thrddemo.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Animedclient">
+        <MSBuild Projects="Animedclient.dproj"/>
+    </Target>
+    <Target Name="Animedclient:Clean">
+        <MSBuild Projects="Animedclient.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Animedclient:Make">
+        <MSBuild Projects="Animedclient.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ZSimple">
+        <MSBuild Projects="C:\RAD Studio\testing-7.1\examples\simple\ZSimple.dproj"/>
+    </Target>
+    <Target Name="ZSimple:Clean">
+        <MSBuild Projects="C:\RAD Studio\testing-7.1\examples\simple\ZSimple.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ZSimple:Make">
+        <MSBuild Projects="C:\RAD Studio\testing-7.1\examples\simple\ZSimple.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Basic">
+        <MSBuild Projects="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\Basic\Basic.dproj"/>
+    </Target>
+    <Target Name="Basic:Clean">
+        <MSBuild Projects="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\Basic\Basic.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Basic:Make">
+        <MSBuild Projects="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\Basic\Basic.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Basic3D">
+        <MSBuild Projects="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\Basic3D\Basic3D.dproj"/>
+    </Target>
+    <Target Name="Basic3D:Clean">
+        <MSBuild Projects="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\Basic3D\Basic3D.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Basic3D:Make">
+        <MSBuild Projects="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\Basic3D\Basic3D.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BasicGUI">
+        <MSBuild Projects="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\BasicGUI\BasicGUI.dproj"/>
+    </Target>
+    <Target Name="BasicGUI:Clean">
+        <MSBuild Projects="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\BasicGUI\BasicGUI.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BasicGUI:Make">
+        <MSBuild Projects="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\BasicGUI\BasicGUI.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Networking">
+        <MSBuild Projects="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\Networking\Networking.dproj"/>
+    </Target>
+    <Target Name="Networking:Clean">
+        <MSBuild Projects="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\Networking\Networking.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Networking:Make">
+        <MSBuild Projects="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\Networking\Networking.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TargetsNPanels">
+        <MSBuild Projects="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\TargetsNPanels\TargetsNPanels.dproj"/>
+    </Target>
+    <Target Name="TargetsNPanels:Clean">
+        <MSBuild Projects="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\TargetsNPanels\TargetsNPanels.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TargetsNPanels:Make">
+        <MSBuild Projects="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\TargetsNPanels\TargetsNPanels.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Illumination">
+        <MSBuild Projects="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\Illumination\Illumination.dproj"/>
+    </Target>
+    <Target Name="Illumination:Clean">
+        <MSBuild Projects="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\Illumination\Illumination.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Illumination:Make">
+        <MSBuild Projects="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\Illumination\Illumination.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Hasteroids">
+        <MSBuild Projects="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\Hasteroids\Hasteroids.dproj"/>
+    </Target>
+    <Target Name="Hasteroids:Clean">
+        <MSBuild Projects="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\Hasteroids\Hasteroids.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Hasteroids:Make">
+        <MSBuild Projects="C:\RAD Studio\AsphyreSphinx304\Examples\Delphi\XE2_up\Hasteroids\Hasteroids.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="JediInstaller">
+        <MSBuild Projects="..\..\..\Desktop\jedi\install\JediInstaller.dproj"/>
+    </Target>
+    <Target Name="JediInstaller:Clean">
+        <MSBuild Projects="..\..\..\Desktop\jedi\install\JediInstaller.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="JediInstaller:Make">
+        <MSBuild Projects="..\..\..\Desktop\jedi\install\JediInstaller.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project1">
+        <MSBuild Projects="Project1.dproj"/>
+    </Target>
+    <Target Name="Project1:Clean">
+        <MSBuild Projects="Project1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project1:Make">
+        <MSBuild Projects="Project1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="thrddemo">
+        <MSBuild Projects="C:\RAD Studio\11.0\Samples\Delphi\RTL\Threads\thrddemo.dproj"/>
+    </Target>
+    <Target Name="thrddemo:Clean">
+        <MSBuild Projects="C:\RAD Studio\11.0\Samples\Delphi\RTL\Threads\thrddemo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="thrddemo:Make">
+        <MSBuild Projects="C:\RAD Studio\11.0\Samples\Delphi\RTL\Threads\thrddemo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Animedclient;ZSimple;Basic;Basic3D;BasicGUI;Networking;TargetsNPanels;Illumination;Hasteroids;JediInstaller;Project1;thrddemo"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Animedclient:Clean;ZSimple:Clean;Basic:Clean;Basic3D:Clean;BasicGUI:Clean;Networking:Clean;TargetsNPanels:Clean;Illumination:Clean;Hasteroids:Clean;JediInstaller:Clean;Project1:Clean;thrddemo:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Animedclient:Make;ZSimple:Make;Basic:Make;Basic3D:Make;BasicGUI:Make;Networking:Make;TargetsNPanels:Make;Illumination:Make;Hasteroids:Make;JediInstaller:Make;Project1:Make;thrddemo:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
